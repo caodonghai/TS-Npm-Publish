@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+      "jsx": "react",
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["es2017", "es7", "es6", "dom", "dom.iterable", "esnext"],
+      "declaration": true,
+      "outDir": "./lib",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowJs": true,
+      "noImplicitAny": false, // 是否在表达式和声明上有隐含的any类型时报错
+  },
+  "exclude": ["node_modules", "dist", "lib"]
+}
